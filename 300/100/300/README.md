@@ -37,4 +37,15 @@ hello.qmd
 
 To render and preview, execute the **Quarto: Render** command. You can alternatively use the ```Ctrl+Shift+K``` keyboard shortcut, or the **Render** button at the top right of the editor:
 
+![image](https://user-images.githubusercontent.com/1499433/199038548-c81db7cf-0ef3-4ede-a7e3-0d20491ec62a.png)
 
+**Note** that on the Mac you should use Cmd rather than Ctrl as the prefix for all Quarto keyboard shortcuts.
+
+Additionally, there are commands available to render specific formats. Here is a complete list of the supported render commands:
+
+- Quarto: Render
+- Quarto: Render HTML
+- Quarto: Render PDF
+- Quarto: Render DOCX
+
+The **Quarto: Render** command renders the default format of the currently active document. The other commands render specific formats (regardless of the document’s default format). The ```Ctrl+Shift+K``` keyboard shortcut will re-execute the most recently executed render command.
