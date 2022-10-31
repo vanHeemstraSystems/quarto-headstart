@@ -13,3 +13,5 @@ Based on "Presentations" at https://quarto.org/docs/presentations/
 ## 500 - Learning More
 
 ### 100 - Reveal.js (HTML) <=== THIS IS FANTASTIC!!!
+
+See also "Mastering reveal.js" at https://revealjs.com/course/
