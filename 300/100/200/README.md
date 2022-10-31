@@ -32,7 +32,7 @@ Step 2) Add the following line of text to the .env file from the previous step:
 QUARTO_PYTHON="FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE"
 ```
 
-Step 3) Replace FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE by the actual full path to your Python executable (e.g., C:/Users/johndoe/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/python.exe).
+Step 3) Replace FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE by the actual full path to your Python executable (e.g., D:\python\python.exe).
 
 Step 4) Close and reopen Visual Studio Code to initiate the environment variable.
 
