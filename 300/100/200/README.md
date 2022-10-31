@@ -41,3 +41,14 @@ Step 5) Re-run the following command to verify if QUARTO_PYTHON has now been suc
 ```
 $ quarto check
 ```
+If still unable to find Python in Visual Studio Code, do the following:
+
+Step 1) In VS Code, open the Settings with (Ctrl+,) then search settings for "Interpreter." There will an option for "Python: Default Interpreter Path." 
+
+Step 2) Set the location of your python.exe file. 
+
+Step 3) Open a new VS terminal with (Ctrl+Shift+`) to test the python command; you may need to restart VS Code.
+
+I had trouble with VS being unable to locate python even though I could run python commands from any terminal opened from my computer (Windows Logo Key + cmd + Enter). I noticed that the Scripts folder was not installed on my python install, so I reinstalled python and followed the above steps. It worked for me.
+
+VS Code has a python tutorial as well which includes a Select a Python Interpreter section (https://code.visualstudio.com/docs/python/python-tutorial).
