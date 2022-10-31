@@ -2,7 +2,7 @@
 
 We’ll start out by rendering a simple example (```hello.qmd```) to a couple of formats. If you want to follow along step-by-step in your own environment, create a new file named ```hello.qmd``` and copy the following content into it.
 
-```
+<pre>
 ---
 title: "Quarto Basics"
 format:
@@ -13,7 +13,7 @@ jupyter: python3
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 
-\```{python}
+```{python}
 #| label: fig-polar
 #| fig-cap: "A line plot on a polar axis"
 
@@ -29,6 +29,7 @@ ax.plot(theta, r)
 ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
-\```
 ```
+</pre>
+
 hello.qmd
