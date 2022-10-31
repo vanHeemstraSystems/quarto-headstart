@@ -33,3 +33,8 @@ plt.show()
 </pre>
 
 hello.qmd
+
+
+To render and preview, execute the **Quarto: Render** command. You can alternatively use the ```Ctrl+Shift+K``` keyboard shortcut, or the **Render** button at the top right of the editor:
+
+
