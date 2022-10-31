@@ -30,5 +30,4 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
-```
 hello.qmd
