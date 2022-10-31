@@ -22,6 +22,6 @@ Verify if quarto has been installed successfully by running below command in a t
 $ quarto check
 ```
 
-In case you get a prompt as follows: "WARNING: Specified QUARTO_PYTHON 'python' does not exist." do the floowing:
+In case you get a prompt as follows: "WARNING: Specified QUARTO_PYTHON 'python' does not exist." do the following:
 
-....
+.... more 
