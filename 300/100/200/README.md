@@ -9,7 +9,7 @@ The document on the left is *rendered* into the HTML version you see on the righ
 The tutorials will make use of the ```matplotlib``` and ```plotly``` Python packages—the commands you can use to install them are given in the table below.
 
 | Platform | Commands | Commands behind a Proxy |
-| -- | -- |
+| -- | -- | -- |
 | Mac/Linux	| python3 -m pip install jupyter matplotlib plotly | python3 -m pip install --proxy http://user:password@proxyserver:port jupyter matplotlib plotly |
 | Windows	| py -m pip install jupyter matplotlib plotly| py -m pip install --proxy http://user:password@proxyserver:port jupyter matplotlib plotly |
 
