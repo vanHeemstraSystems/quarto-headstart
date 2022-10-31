@@ -14,3 +14,14 @@ The tutorials will make use of the ```matplotlib``` and ```plotly``` Python pack
 | Windows	| py -m pip install jupyter matplotlib plotly| py -m pip install --proxy http://user:password@proxyserver:port jupyter matplotlib plotly |
 
 **Note** that while this tutorial uses Python, using Julia (via the [IJulia](https://julialang.github.io/IJulia.jl/stable/) kernel) is also well supported. See the article on [Using Julia](https://quarto.org/docs/computations/julia.html) for additional details.
+
+
+Verify if quarto has been installed successfully by running below command in a terminal inside Visual Studio Code:
+
+```
+$ quarto check
+```
+
+In case you get a prompt as follows: "WARNING: Specified QUARTO_PYTHON 'python' does not exist." do the floowing:
+
+....
