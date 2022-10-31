@@ -24,9 +24,9 @@ $ quarto check
 
 In case you get a prompt as follows: "WARNING: Specified QUARTO_PYTHON 'python' does not exist." do the following:
 
-Step 1) Add a file ```_environment``` to the root directory of where you wnat to run the Quarto command (e.g. next to the .qmd files).
+Step 1) Add a file ```_environment.local``` to the root directory of where you wnat to run the Quarto command (e.g. next to the .qmd files).
 
-Step 2) Add the following line of text to the ```_environment``` file from the previous step:
+Step 2) Add the following line of text to the ```_environment.local``` file from the previous step:
 
 ```
 QUARTO_PYTHON="FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE"
