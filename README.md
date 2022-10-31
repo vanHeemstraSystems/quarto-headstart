@@ -3,6 +3,8 @@ quarto-headstart
 
 Based on "Quarto - Getting Started" at https://quarto.org/docs/get-started/
 
+Based on "Quarto, Python, and VS Code: Quarto Reports In VS Code" at https://appsilon.com/quarto-python-and-vscode/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
