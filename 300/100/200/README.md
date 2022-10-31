@@ -24,4 +24,20 @@ $ quarto check
 
 In case you get a prompt as follows: "WARNING: Specified QUARTO_PYTHON 'python' does not exist." do the following:
 
-.... more 
+Step 1) Add a file ```.env``` to the root directory of where you wnat to run the Quarto command (e.g. next to the .qmd files).
+
+Step 2) Add the following line of text to the .env file from the previous step:
+
+```
+QUARTO_PYTHON="FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE"
+```
+
+Step 3) Replace FULL_PATH_TO_YOUR_PYTHON_EXECUTABLE by the actual full path to your Python executable (e.g., C:/Users/johndoe/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/python.exe).
+
+Step 4) Close and reopen Visual Studio Code to initiate the environment variable.
+
+Step 5) Re-run the following command to verify if QUARTO_PYTHON has now been successfully set:
+
+```
+$ quarto check
+```
