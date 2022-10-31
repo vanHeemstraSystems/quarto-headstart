@@ -35,7 +35,7 @@ plt.show()
 hello.qmd
 
 
-To render and preview, execute the **Quarto: Render** command. You can alternatively use the ```Ctrl+Shift+K``` keyboard shortcut, or the **Render** button at the top right of the editor:
+To render and preview, execute the **Quarto: Render** command. You can alternatively use the ```Ctrl+Shift+K``` keyboard shortcut, or the **Render HTML** button at the top right of the editor:
 
 ![image](https://user-images.githubusercontent.com/1499433/199038548-c81db7cf-0ef3-4ede-a7e3-0d20491ec62a.png)
 
@@ -49,3 +49,5 @@ Additionally, there are commands available to render specific formats. Here is a
 - Quarto: Render DOCX
 
 The **Quarto: Render** command renders the default format of the currently active document. The other commands render specific formats (regardless of the document’s default format). The ```Ctrl+Shift+K``` keyboard shortcut will re-execute the most recently executed render command.
+
+
