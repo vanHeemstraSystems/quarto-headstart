@@ -13,3 +13,4 @@
 ## Step 2: Choose your tool and get started
 
 | [VS Code](https://quarto.org/docs/get-started/hello/vscode.html) | [RStudio](https://quarto.org/docs/get-started/hello/rstudio.html) | [Jupyter](https://quarto.org/docs/get-started/hello/jupyter.html)| [Text Editor](https://quarto.org/docs/get-started/hello/text-editor.html) |
+| -- | -- | -- | -- |
