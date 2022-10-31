@@ -13,3 +13,4 @@ The tutorials will make use of the ```matplotlib``` and ```plotly``` Python pack
 | Mac/Linux	| python3 -m pip install jupyter matplotlib plotly |
 | Windows	| py -m pip install jupyter matplotlib plotly|
 
+**Note** that while this tutorial uses Python, using Julia (via the [IJulia](https://julialang.github.io/IJulia.jl/stable/) kernel) is also well supported. See the article on [Using Julia](https://quarto.org/docs/computations/julia.html) for additional details.
