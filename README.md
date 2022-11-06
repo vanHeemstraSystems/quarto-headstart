@@ -5,6 +5,8 @@ Based on "Quarto - Getting Started" at https://quarto.org/docs/get-started/
 
 Based on "Quarto, Python, and VS Code: Quarto Reports In VS Code" at https://appsilon.com/quarto-python-and-vscode/
 
+See also "Quarto to GitHub Pages" at https://github.com/vanHeemstraSystems/quarto-to-github-pages
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
